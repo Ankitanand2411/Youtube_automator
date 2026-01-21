@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tag Automator</title>
+  <style>
+    body {
+      min-width: 250px;
+      padding: 10px;
+      font-family: sans-serif;
+    }
+    textarea {
+      width: 100%;
+      resize: none;
+    }
+    button {
+      width: 100%;
+      padding: 8px;
+      background: #4285f4;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+      border-radius: 4px;
+    }
+    button:hover {
+      background: #3367d6;
+    }
+  </style>
+</head>
+<body>
+  <textarea id="tags" rows="4" placeholder="Enter tags separated by commas"></textarea><br><br>
+  <button id="inject">Paste Tags</button>
+  <script src="popup.js"></script>
+</body>
+</html>
